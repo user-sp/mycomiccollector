@@ -1,0 +1,36 @@
+BODY {
+	BACKGROUND-COLOR: white; COLOR: black; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt; MARGIN: 0px
+}
+A {
+	COLOR: #4169e1;text-decoration: none
+}
+.a1 {   COLOR: white; text-decoration: none
+}
+.a2 {   COLOR: green; text-decoration: none
+}
+A:hover {
+	COLOR: #4169e1;text-decoration: underline
+}
+.a1:hover  { COLOR: white; TEXT-DECORATION: underline
+}
+.a2:hover  { COLOR: green; TEXT-DECORATION: underline
+}
+
+TABLE {
+	FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt
+}
+HR {
+	COLOR: #4169e1; HEIGHT: 1px
+}
+H2 {
+	COLOR: #4169e1; FONT-WEIGHT: 100
+}
+TD {
+	FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt
+}
+.t1 {
+	BACKGROUND-COLOR: #4169e1; COLOR: white; TEXT-ALIGN: center
+}
+.t2 {
+	BACKGROUND-COLOR: green; COLOR: white; TEXT-ALIGN: center
+}

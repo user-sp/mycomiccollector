@@ -1,0 +1,278 @@
+﻿MyComicCollector v2.93
+
+Uwagi proszę kierować na adres: mycomiccollector@outlook.com
+
+[KLAWISZOLOGIA]
+[Ogólne]
+F1-F4 - zakładki (max. 4 edytowalne zakładki, wyświetlające dane przedmiotu)
+ALT+F1 - okładka
+ALT+F2 - saldo
+F5 - odświeżenie aktualnego WIDOKU (patrz FAQ)
+F6 - filtry użytkownika
+ALT+F6 - łączna ilość stron/średnia na album
+F7 - rozwinięcie/zwinięcie pogrupowanych pozycji (jeśli wybrano grupowanie)
+F8 - włączenie/wyłączenie zaznaczania pozycji
+F9 - Aleja Komiksu
+F10 - Gildia.pl 
+ALT+F10 - szukanie aktualnej pozycji w sklepie Gildia.pl
+F11 - komiks.polter.pl
+
+[Panel przedmiotów]
+INS - dodanie nowej pozycji
+DEL - skasowanie pozycji
+SHIFT+INS - duplikat aktualnej pozycji (wszystkie dane, bez okładki)
+SHIFT+DEL - wykluczenie (NIE SKASOWANIE) pozycji z aktualnego WIDOKU.
+            wykluczone pozycje zostaną przywrócone po odświeżeniu (F5)
+INSERT - rozpoczęcie edycji wiersza
+SHIFT+INSERT - edycja waluty w pozycjach z cenami
+CTRL+F - filtr
+CTRL+W - wczytanie aktualnego filtru użytkownika
+CTRL+Q - przeszukuje tytuł wśród zakończonych aukcji na allegro.pl
+CTRL+O - szukanie tytułu na komiks.polter.pl
+CTRL+P - wydruki
+
+[Panele Aleja Komiksu, Gildia.pl, PolterGeist]
+INS - import pozycji z serwisu (tekst+okładka)
+SHIFT+INS - uzupełnienie danych w aktualnej pozycji (z okładką)
+CTRL+INS - uzupełnienie okładki w aktualnej pozycji (bez danych)
+\ - przełączanie paneli Tekst <-> Okładka
+ENTER - pobranie danych o pozycji
+SHIFT+ENTER - przejście na stronę domową
+SHIFT+LEFT - ukryj rozwinięte pozycje
+SHIFT+RIGHT - pokaż rozwinięte pozycje
+
+
+[Wyszukiwanie w serwisie polter.pl/komiks]
+Domyślnie przeszukiwana kategoria - Tytuł.
+[nieaktualne]
+Inne dostępne kategorie:
+Scenariusz -> przed szukaną frazą dodajemy - s: Przykładowo: s:Goscinny
+Rysunki ->  przed szukaną frazą dodajemy - r: Przykładowo: r:Uderzo
+[/nieaktualne]
+
+[Filtry użytkownika]
+Można zapisać aktualne ustawienia Widoku + zastosowane filtry
+Wykluczone pozycje oraz brakujące okładki nie zostaną uwzględnione.
+
+[Okładka]
+Aby skopiować okładkę należy użyć przeglądarki internetowej lub skorzystać
+z innego źródła umożliwiającego kopiowanie obrazu do schowka systemowego.
+CTRL+V - import okładki ze schowka systemowego (panel 'Okładka' musi być aktywny)
+Zapisana okładka po przeskalowaniu będzie miała max 300x300 pikseli.
+
+[Katalog Backup]
+Program przy aktualizacji do nowej wersji, prewencyjnie wykonuje backup bazy danych (oprócz okładek).
+Niepotrzebne pliki *.bak i *.ok w katalogu 'Backup' można usunąć, jeśli zachodzi potrzeba zwolnienia miejsca na dysku.
+
+[Ceny]
+Domyślną walutą jest polski złoty "zł".
+Pole wyświetlane jako cena składa się z dwóch niezależnych pól: "Cena ..." + "Waluta ..."
+Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT+INSERT
+
+
+[FAQ]
+- Co to jest WIDOK?
+- WIDOK to aktualnie wyświetlone pozycje po uwzględnieniu filtrów, statusu, itp...
+
+- Do czego służy funkcja: odświeżenie aktualnego WIDOKU?
+- Przykład: po wybraniu statusu "Posiadam" zostaną wyświetlone tylko te pozycje,
+  które w polu "Status" mają wartość "Posiadam". Jeśli którejś pozycji zmienimy pole "Status",
+  powinna ona zniknąć z bieżącego WIDOKU, ponieważ nie spełnia już warunku.
+  Aby temu zapobiec, WIDOK nie jest automatycznie odświeżany.
+  Można to zrobić ręcznie (F5), jeśli zachodzi taka potrzeba.
+
+- W jaki sposób tworzona jest nowa pozycja?
+- Pola nowej pozycji inicjowane są wartościami domyślnymi.
+  Wyjątki od tej reguły:
+  1) pole "Status" przyjmie wartość aktualnie ustawionego statusu.
+  2) jeśli użyto funkcji "Szukaj" - nowa pozycja przyjmie kryteria wyszukiwania.
+
+- Do czego służy zaznaczanie pozycji?
+- Po włączeniu zaznaczania (F8) możliwe jest "hurtowe" edytowanie pozycji tj.
+  kasowanie, wykluczanie z WIDOKU, aktualizacja pól, itd.
+
+- Dlaczego nieaktywna jest funkcja Wydruki z menu Plik?
+- Funkcja aktywna jest kiedy wybrana jest zakładka z opisem pozycji.
+  Na wydruku zostaną zawarte tylko kolumny, które znajdują się na tej zakładce.
+
+
+[TIPS & TRICKS]
+- Wpisanie cyfry '0' w polu opisującym datę, przypisuje aktualną datę.
+- Kliknięcie PPM na nagłówku pola udostępnia menu: Sortuj, Grupuj, Filtruj.
+- Kliknięcie PPM na wartościach pól udostępnia menu: Szybki filtr.
+- Kliknięcie PPM na wartości pola "Wydawnictwo" udostępnia menu: Idź do strony wydawnictwa.
+- Kliknięcie PPM na wartości pola "Format" udostępnia menu: Wybierz format papieru.
+ 
+[HISTORIA WERSJI]
+[v1.0 (beta) 2011-06-04]
+- pierwsza wersja programu
+
+[v1.01 (beta) 2011-06-29]
+- dodano obsługę serwisu PolterGeist
+- poprawiono obsługę serwisu Gildia.pl
+- dodano obsługę wielu baz danych
+- usunięto wszystkie zgłoszone błędy
+
+[v1.02 (beta) 2011-10-14]
+- usunięto wszystkie zgłoszone błędy
+
+[v1.03 (beta) 2011-11-20]
+- uwzględniono zmiany w serwisie allegro.pl
+
+[v1.04 (beta) 2011-12-27]
+- dodano nowe pola: "Waluta zakupu", "Waluta sprzedaży"
+- przemianowano pole "Waluta" na "Waluta z okładki"
+- dodano zakładkę Saldo
+- dodano przeliczanie wartości z walut obcych wg średniego kursu NBP
+- zmieniono sposób wyświetlania posortowanych pozycji
+- dodano nową pozycję w polu Status: Sprzedane
+
+[v1.05 2012-01-09]
+- optymalizacja programu
+
+[v1.06 2012-01-15]
+- dodano możliwość wyszukania pozycji bez okładek
+- dodano możliwość zapisania ustawień użytkownika (filtr, sortowanie)
+
+[v1.07 2012-01-20]
+- usunięto błąd związany z wczytywaniem okładek
+
+[v1.08 2012-06-07]
+- dodano export pozycji do formatu .html (dane z bieżącej zakładki)
+- usprawniono filtrowanie
+- zmieniono sposób wyświetlania nowo-dodanych pozycji
+- dodano szybki dostęp do kalkulatora
+- dodano informacje o formatach papieru dla pola "Format" (PPM na wartości pola)
+- zmieniono zachowanie programu po włączeniu opcji 'zaznaczanie'
+
+[v1.081 2012-06-10]
+- poprawiono tryb zaznaczania
+
+[v1.083 2012-06-17]
+- poprawiono zamykanie programu z menu Plik :)
+
+[v1.09 2013-02-11]
+- usprawniono filtrowanie (łączenie wielu warunków)
+- dodano możliwość przeglądania sklepu Gildia.pl
+- zmieniono przypisanie klawiszy funkcyjnych
+
+[v1.091 2013-03-10]
+- poprawiono błąd związany z wynikami szukania zwracanymi przez allegro.pl
+
+[v2.0 2013-03-24]
+- dodano funkcję 'Znajdź okładkę' za pomocą google
+- dodano możliwość wklejenia okładki ze schowka systemowego (szczegóły wyżej, w sekcji [Okładka])
+- dodano funkcję ręcznego oczyszczenia katalogu Backup
+
+[v2.01 2013-03-30]
+- drobne poprawki
+
+[v2.02 2013-04-05]
+- poprawiono wyszukiwanie pozycji w serwisie allegro.pl
+
+[v2.03 2013-05-10]
+- uwzględniono zmiany w serwisie allegro.pl
+
+[v2.031 2013-05-11]
+- poprawiono funkcjonowanie skryptu overlib.js - export pozycji do pliku html (by xerif)
+
+[v2.04 2013-07-11]
+- dodano możliwość robienia notatek
+- dodano walidację numerów ISBN
+- uwzględniono zmiany w serwisie allegro.pl
+- drobne poprawki
+
+[v2.05 2013-08-11]
+- dodano podgląd miniaturki okładki na zakładce (Opcje -> Edytor zakładek)
+
+[v2.051 2013-08-17]
+- drobne poprawki
+
+[v2.06 2013-09-04]
+- poprawiono wyszukiwanie pozycji w serwisie PolterGeist.pl (szczegóły wyżej)
+
+[v2.061 2013-09-07]
+- poprawiono błąd podczas wyszukiwania pozycji w serwisie PolterGeist.pl
+
+[v2.062 2013-09-18]
+- drobne poprawki
+
+[v2.07 2013-10-10]
+- dodano narzędzie wielokrotnej zamiany tekstu
+- uwzględniono zmiany w serwisie PolterGeist.pl
+- zmiana przypisania klawiszy na panelach Gildii i Poletergeist
+
+[v2.08 2013-11-03]
+- dodano obsługę serwisu Aleja Komiksu
+- dodano nowe pola: "Stan", "Kupujący", "Nr wydawcy" np. KŚK
+- dodano nowe funkcje w narzędziu wielokrotnej zamiany tekstu
+
+[v2.081-2 2013-11-11]
+- drobne usprawnienia
+
+[v2.083 2014-03-11]
+- poprawiono obsługę serwisu Aleja Komiksu
+
+[v2.084-5 2014-05-05]
+- drobne usprawnienia
+
+[v2.09 2014-10-12]
+- zmieniono obsługę filtrów użytkownika (F6)
+- zamieniono przypisanie klawiszy funkcyjnych (F7, F8)
+- zmieniono sposób edycji waluty (patrz [Ceny])
+- poprawiono obsługę serwisu Aleja Komiksu
+- dodano nowy wydruk: lista komiksów + okładki
+
+[v2.1 2015-02-22]
+- poprawiono wydruki
+- dodano opcję kopiowania informacji z zakładek do schowka systemowego
+- j.w + format pod edytor tekstowy przy sprzedaży na allegro
+
+[v2.2 2015-03-02]
+- dodano funkcję: dodaj nową pozycję ze schowka (skopiuj z www i wklej)
+
+[v2.3 2016-01-06]
+- uwzględniono zmiany w serwisie allegro.pl
+- dodane nowe pole: Podseria
+- dodano statystykę ilości stron (ALT+F6)
+
+[v2.4 2016-04-17]
+- dodano wielowierszowy opis (Edycja -> Edytor zakładek -> pokaż rozszerzony opis)
+- drobne usprawnienia
+
+[v2.5 2016-05-16]
+- dodano Szybki filtr (Grupowanie, Status: Off)
+- CTRL+W przywraca aktualnie wczytany filtr użytkownika
+- drobne usprawnienia
+
+[v2.51 2016-06-14]
+- poprawiono błąd brakujących okładek po zapisaniu bazy z nową nazwą
+
+[v2.6 2016-07-22]
+- dodano szybkie wybieranie filtrów użytkownika
+
+[v2.7 2016-11-27]
+- uaktualniono obsługę serwisów Aleja Komiksu i PolterGeist
+- drobne poprawki
+
+[v2.8 2017-04-30]
+- nowa strona domowa: www.simisoft.pl/mycomiccollector
+- uaktualniono obsługę serwisów Allegro, Aleja Komiksu
+- uaktualniono pobieranie kursów walut
+
+[v2.9 2017-05-06]
+- dodano możliwość pobierania samych nagłówków z Gildii
+- tekst i okładka (po rozciągnięciu okna) na jednej zakładce (panele: Gildia, AlejaKomiksu, PolterGeist)
+
+[v2.91 2017-05-10]
+- drobne usprawnienia
+
+[v2.92 2019-02-06]
+- uaktualniono obsługę serwisu Aleja Komiksu
+- wyłączono panel Allegro
+
+[v2.93 2020-06-29]
+- uaktualniono obsługę serwisu PolterGeist
+
+
+
