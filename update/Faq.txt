@@ -1,5 +1,6 @@
-﻿MyComicCollector v2.93
+﻿MyComicCollector v2.94
 
+Strona domowa: https://user-sp.github.io/mycomiccollector
 Uwagi proszę kierować na adres: mycomiccollector@outlook.com
 
 [KLAWISZOLOGIA]
@@ -274,5 +275,6 @@ Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT
 [v2.93 2020-06-29]
 - uaktualniono obsługę serwisu PolterGeist
 
-
+[v2.94 2020-07-19]
+- drobne usprawnienia
 
