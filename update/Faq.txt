@@ -1,4 +1,4 @@
-﻿MyComicCollector v2.94
+﻿MyComicCollector v2.941
 
 Strona domowa: https://user-sp.github.io/mycomiccollector
 Uwagi proszę kierować na adres: mycomiccollector@outlook.com
@@ -277,4 +277,10 @@ Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT
 
 [v2.94 2020-07-19]
 - drobne usprawnienia
+
+[v2.941 2020-07-19]
+- drobne usprawnienia
+- zmiana organizacji katalogów
+
+
 
