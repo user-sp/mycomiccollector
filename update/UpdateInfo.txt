@@ -1,9 +1,0 @@
-[ver]
-2.94
-[files]
-MyComicCollector.exe.upd
-AppLogic.dll.upd
-DataAccess.dll.upd
-Model.dll.upd
-Faq.txt
-Launcher.exe.upd
