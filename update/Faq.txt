@@ -1,4 +1,4 @@
-﻿MyComicCollector v2.942
+﻿MyComicCollector v2.95
 
 Strona domowa: https://user-sp.github.io/mycomiccollector
 Uwagi proszę kierować na adres: mycomiccollector@outlook.com
@@ -257,7 +257,7 @@ Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT
 - drobne poprawki
 
 [v2.8 2017-04-30]
-- nowa strona domowa: www.simisoft.pl/mycomiccollector
+- nowa strona domowa: www.simisoft.pl/mycomiccollector (nieaktulane)
 - uaktualniono obsługę serwisów Allegro, Aleja Komiksu
 - uaktualniono pobieranie kursów walut
 
@@ -283,6 +283,9 @@ Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT
 - zmiana organizacji katalogów
 
 [v2.942 2020-07-20]
-- usunięto błędy związane ze zmianą .net frameworka 4.7.2
+- usunięto błędy związane ze zmianą .netframeworka na wersję 4.7.2
 
+[v2.95 2020-08-05]
+- poprawiona funkcja kopiuj-wklej
+- drobne usprawnienia
  
