@@ -1,5 +1,5 @@
 [ver]
-2.96
+2.97
 [files]
 MyComicCollector.exe.upd
 AppLogic.dll.upd

@@ -1,4 +1,4 @@
-﻿MyComicCollector v2.96
+﻿MyComicCollector v2.97
 
 Strona domowa: https://user-sp.github.io/mycomiccollector
 Uwagi proszę kierować na adres: mycomiccollector@outlook.com
@@ -45,11 +45,9 @@ SHIFT+RIGHT - pokaż rozwinięte pozycje
 
 [Wyszukiwanie w serwisie polter.pl/komiks]
 Domyślnie przeszukiwana kategoria - Tytuł.
-[nieaktualne]
-Inne dostępne kategorie:
-Scenariusz -> przed szukaną frazą dodajemy - s: Przykładowo: s:Goscinny
-Rysunki ->  przed szukaną frazą dodajemy - r: Przykładowo: r:Uderzo
-[/nieaktualne]
+Inne dostępne kategorie przeszukiwania:
+Scenariusz -> przed szukaną frazą dodajemy - s:
+Rysunki ->  przed szukaną frazą dodajemy - r:
 
 [Filtry użytkownika]
 Można zapisać aktualne ustawienia Widoku + zastosowane filtry
@@ -292,3 +290,9 @@ Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT
 [v2.96 2021-03-23]
 - kalkulator w polach liczbowych
 - drobne usprawnienia
+
+[v2.97 2022-08-07]
+- wyłączono panel serwisu gildia.pl (serwis nieaktywny)
+- drobne usprawnienia dotyczące dodawania nowych pozycji ze schowka
+
+
