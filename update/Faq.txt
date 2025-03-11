@@ -1,4 +1,4 @@
-﻿MyComicCollector v2.972
+﻿MyComicCollector v2.98
 
 Strona domowa: https://user-sp.github.io/mycomiccollector
 Uwagi proszę kierować na adres: mycomiccollector@outlook.com
@@ -301,5 +301,8 @@ Aby zmienić walutę klikamy PPM na cenie lub używamy kombinacji klawiszy SHIFT
 [v2.972 2023-03-05]
 - poprawiono obsługę serwisów Aleja Komiksu i PolterGeist
 
+[v2.98 2025-03-11]
+- poprawiono obsługę serwisu PolterGeist
+- drobne usprawnienia
 
 
